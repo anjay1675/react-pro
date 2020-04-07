@@ -86,7 +86,7 @@ const Hail=()=>{
     <img src="./images/truckx21.jpg"
          width="360px"
          height="280px"
-         alt= "moov africa image"
+         alt= "moov africa"
     />
     <h3 id="he">Get on the go</h3>
     <h6 id="jan">Jan - Dec 2020</h6>
@@ -99,7 +99,7 @@ const Hail=()=>{
     <img src="./images/ship13.jpeg"
          width="360px"
          height="280px"
-         alt= "moov africa image"
+         alt= "moov africa"
     />
     <h3 id="he">Heavy deliveries</h3>
     <h6 id="jan">Jan - Dec 2020</h6>
@@ -113,12 +113,12 @@ const Hail=()=>{
         <div className="bod3">     
         <img id="glo" 
              src="./images/globe.jpg"
-             alt="global pic"
+             alt="global "
         />
         </div>
         <div className="bod4">
         <img src="./images/truck26.jpg"
-             alt="cargo image"
+             alt="cargo"
              width="200px"
              height="200px"
         />
