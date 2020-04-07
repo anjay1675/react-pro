@@ -5,11 +5,11 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
 
    const Menu =()=>{
     return(
-        <div class="bodyy">
+        <div className="bodyy">
             <div className="bar">
-                <div class="bar1">
-                <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 class="enq" >Contact Us</h6></Link></div>
+                <div className="bar1">
+                <div className="bar2"><i class="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
+                <div className="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 className="enq" >Contact Us</h6></Link></div>
                 </div>
             </div>
         <div className="car">
@@ -18,36 +18,36 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
         <Navbar.Collapse id="responsive-navbar-nav">    
                 <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
             <Nav className="mr-auto">    
-                <Link class="nav-link" to='/'>Home</Link>
-                <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
-                <Link class="nav-link" to='/rent'>Rent a Van</Link>
+                <Link className="nav-link" to='/'>Home</Link>
+                <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
+                <Link className="nav-link" to='/rent'>Rent a Van</Link>
                 <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
-                <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
-                <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
-                <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
+                <Link className="nav-link" to='/deals'>Deals</Link>
+                <Link className="nav-link" to='/hail1'>Hail a Repair</Link>
+                <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
+                <a className="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
                 <div className="vl"></div>
                 <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
             </Nav>  
         </Navbar.Collapse>
     </Navbar>
-    <Carousel class="ccc">
-      <Carousel.Item>
+    <Carousel className="ccc">
+    <Carousel.Item>
     <img
-      class="imgtrux"
+      className="imgtrux"
       src="./images/front.jpg"
       alt="moov africa"
     />
-    <div class="container">
-      <span class="text1">Welcome to Moov Africa</span>
-      <span class="text2">Trusted Cargo handlers</span>
+    <div className="container">
+      <span className="text1">Welcome to Moov Africa</span>
+      <span className="text2">Trusted Cargo handlers</span>
     </div>
-    <Carousel.Caption>
-    </Carousel.Caption>
+    {/* <Carousel.Caption>
+    </Carousel.Caption> */}
     </Carousel.Item>
     <Carousel.Item>
     <img
-      class="imgtrux"
+      className="imgtrux"
       src="./images/package.jpg"
       alt="Third slide"
     />
@@ -65,15 +65,15 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
     </Carousel.Item>
     <Carousel.Item>
     <img
-      class="imgtrux"
+      className="imgtrux"
       src="./images/img51.jpg"
       alt="Third slide"
     />
     <Carousel.Caption>
-    <div class="ww">
-        <h4 class="ww1">Express delivery services</h4>
-        <h1 class="ww2">Make the Moov..</h1>
-        <h5 class="ww3">The most Reliable and trusted cargo handlers worldwide. 
+    <div className="ww">
+        <h4 className="ww1">Express delivery services</h4>
+        <h1 className="ww2">Make the Moov..</h1>
+        <h5 className="ww3">The most Reliable and trusted cargo handlers worldwide. 
             Taste the experience and feel the defference with Moov Africa.
         </h5>
     </div>
@@ -96,10 +96,10 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
     <div className="fa2"><a href="https://moovafrica.com/delivery/pages/login" id="reg1">Sign Up</a>
     </div>
     </div>
-    <div class="under">
-        <h6 class="our text-center">OUR SERVICES</h6>
-        <h2 class="exp">EXPRESS DELIVERY SOLUTIONS</h2>
-        <div class="div2">
+    <div className="under">
+        <h6 className="our text-center">OUR SERVICES</h6>
+        <h2 className="exp">EXPRESS DELIVERY SOLUTIONS</h2>
+        <div className="div2">
                   <img id="divi" 
                         src="./images/divider.jpg" 
                         width="100px"
@@ -202,30 +202,30 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                 <Col></Col>
                 <Col>
                 <div class="more3">
-                    <div class="more4"><h4 id="topic">Smart Services</h4></div>
-                    <div class="more5">We would always beat your imagination, and even more. 
+                    <div className="more4"><h4 id="topic">Smart Services</h4></div>
+                    <div className="more5">We would always beat your imagination, and even more. 
                         Our staff are always very courteous and would always attend to your 
                         needs in due time.We would always beat your imagination, and even more. </div>
                 </div>
                 </Col>
                 <Col>
-                <div class="more3">
-                <div class="more4"><h4 id="topic">Global Biz</h4></div>
-                    <div class="more5">We extend our services, within Africa and beyond, providing speedy and reliable cargo, 
+                <div className="more3">
+                <div className="more4"><h4 id="topic">Global Biz</h4></div>
+                    <div className="more5">We extend our services, within Africa and beyond, providing speedy and reliable cargo, 
                     courier and frieght services globally. We are your best chance of taking you into the future. </div>
                 </div>
                 </Col>
                 <Col>
-                <div class="more3">
-                <div class="more4"><h4 id="topic">Hail A Repair</h4></div>
-                    <div class="more5">Do you need your divices and gadgets fixed at very low rates with 100% performace and efficency. 
+                <div className="more3">
+                <div className="more4"><h4 id="topic">Hail A Repair</h4></div>
+                    <div className="more5">Do you need your divices and gadgets fixed at very low rates with 100% performace and efficency. 
                     Hail A Repair offers you a platform of getting your toys fixed with delivery services.</div>
                 </div>
                 </Col>
                 <Col>
-                <div class="more3">
-                <div class="more4"><h4 id="topic">Deals</h4></div>
-                    <div class="more5">In the fast paced moving world of technology, business and looking for the easy life. We offer open 
+                <div className="more3">
+                <div className="more4"><h4 id="topic">Deals</h4></div>
+                    <div className="more5">In the fast paced moving world of technology, business and looking for the easy life. We offer open 
                     doors to all business platforms and new discoveries. Let us know what you really want.</div>
                 </div>
                 </Col>

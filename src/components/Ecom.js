@@ -5,40 +5,40 @@ import {Navbar, Nav, Col,Row} from 'react-bootstrap'
 
 const Ecom=()=>{
     return(
-        <div class="bodyy">
+        <div className="bodyy">
              <div className="bar">
-                <div class="bar1">
-                <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 class="enq" >Contact Us</h6></Link></div>
+                <div className="bar1">
+                <div className="bar2"><i class="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
+                <div className="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 className="enq" >Contact Us</h6></Link></div>
                 </div>
             </div>
         <div className="car">
     <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">    
-                <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
+                <img className="logo" src="./images/w1.png" alt="picture" width="180px" height="80px"/>
             <Nav className="mr-auto">    
-                <Link class="nav-link" to='/'>Home</Link>
-                <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
-                <Link class="nav-link" to='/rent'>Rent a Van</Link>
-                <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
-                <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
-                <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
-                <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
+                <Link className="nav-link" to='/'>Home</Link>
+                <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
+                <Link className="nav-link" to='/rent'>Rent a Van</Link>
+                <a className="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
+                <Link className="nav-link" to='/deals'>Deals</Link>
+                <Link className="nav-link" to='/hail1'>Hail a Repair</Link>
+                <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
+                <a className="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
                 <div className="vl"></div>
                 <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
             </Nav>  
         </Navbar.Collapse>
     </Navbar>
         </div>
-        <div class="ecom"><img src="./images/ecomm2.jpg" alt="" width="100%" height="650px"/></div>
-        <div class="has-max-width text-center"><h1 class="head align-center color-gulfstream ember font-bold">
+        <div className="ecom"><img src="./images/ecomm2.jpg" alt="" width="100%" height="650px"/></div>
+        <div className="has-max-width text-center"><h1 class="head align-center color-gulfstream ember font-bold">
             "Welcome to the world of E-commerce"</h1>
             </div>
-            <div class="rep">
-        <div class="shi">
-        <div class="red"></div>
+            <div className="rep">
+        <div className="shi">
+        <div className="red"></div>
             <h3 id="our1">Our <strong>Assurance</strong> to <em>device</em> owners</h3>
             <h6 id="our2">Moov Africa partners with professional engineers and specialist in the divers fields, 
             to yeild high quality services on your repairs.</h6>
@@ -48,21 +48,21 @@ const Ecom=()=>{
             <h6 id="tac">Contact Us</h6></button></Link>    
         </div>
     </div>
-    <div class="pho"><img id="src" src="./images/repair5.jpeg" alt="Phone pic" width="580px" height="400px"/></div>    
-    <div class="pho1">
-        <div class="pho2">
-            <div class="pho3">
-                <div class="pho4">
-                    <div class="imag"><div class="img2"><h6 id="ele">Electronics</h6></div></div>
-                    <div class="imag1"><div class="img2"><h6 id="ele">Machines</h6></div></div>
+    <div className="pho"><img id="src" src="./images/repair5.jpeg" alt="Phone pic" width="580px" height="400px"/></div>    
+    <div className="pho1">
+        <div className="pho2">
+            <div className="pho3">
+                <div className="pho4">
+                    <div className="imag"><div className="img2"><h6 id="ele">Electronics</h6></div></div>
+                    <div className="imag1"><div classNameName="img2"><h6 id="ele">Machines</h6></div></div>
                 </div>
-                <div class="pho5">
-                    <div class="imag2"><div class="img2"><h6 id="ele">Phones</h6></div></div>
-                    <div class="imag3"><div class="img2"><h6 id="ele">Gadgets</h6></div></div>
+                <div className="pho5">
+                    <div className="imag2"><div className="img2"><h6 id="ele">Phones</h6></div></div>
+                    <div className="imag3"><div className="img2"><h6 id="ele">Gadgets</h6></div></div>
                 </div>
             </div>
-            <div class="pho6">
-                <div class="red"></div>
+            <div className="pho6">
+                <div className="red"></div>
                 <div><h2>Pick Fix and</h2>
                     <h2>Return</h2>
                     <h6 id="gad">Have your damaged devices taken out for urgent professional 
@@ -71,7 +71,7 @@ const Ecom=()=>{
                     <h4 id="sav"><em>Save cost</em></h4>
                     <h6 id="gad">Get a temporary replacement while you wait.</h6>
                     <h2>Hail a Repair</h2>
-                    <div class="red"></div>
+                    <div className="red"></div>
                 </div>
             </div>
         </div>
@@ -90,10 +90,10 @@ const Ecom=()=>{
                     </Col>
                     <Col>
                     <h6 id="las4">Social 
-                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i className="fab fa-facebook-f"></i></a> 
-                      <a href="https://twitter.com/moovnigeria"><i className="fab fa-twitter"></i></a>
-                        <i className="fab fa-instagram"></i>
-                       <a href="https://www.linkedin.com/company/moovafrica/"><i className="fab fa-linkedin-in"></i></a>
+                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i class="fab fa-facebook-f"></i></a> 
+                      <a href="https://twitter.com/moovnigeria"><i class="fab fa-twitter"></i></a>
+                        <i class="fab fa-instagram"></i>
+                       <a href="https://www.linkedin.com/company/moovafrica/"><i class="fab fa-linkedin-in"></i></a>
                     </h6>
                     </Col>   
                 </Row>

@@ -5,18 +5,18 @@ import {Link} from 'react-router-dom'
 
 const Rent=()=>{
     return(
-        <div>
+        <div className="xx">
             <div className="bar">
             <div className="bar1">
-                <div className="bar2"><i className="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 className="enq" >Contact Us</h6></Link></div>
+                <div className="bar2"><i class="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
+                <div className="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 className="enq" >Contact Us</h6></Link></div>
                 </div>
             </div>
             <div className="car" >
             <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">    
-                <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
+                <img className="logo" src="./images/w1.png" alt="picture" width="180px" height="80px"/>
             <Nav className="mr-auto">    
                 <Link className="nav-link" to='/'>Home</Link>
                 <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
@@ -27,20 +27,20 @@ const Rent=()=>{
                 <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
                 <a className="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
                 <div className="vl"></div>
-                <Link id="ser" to='/search'><i className="fas fa-search"></i></Link>
+                <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
             </Nav>  
         </Navbar.Collapse>
         </Navbar>
                 <div className="rent1">
                     <div className="rent2">
-                      <h6 id="ava">Available Jan - Dec</h6>
-                      <h1 id="ree">Rent 'A' Van</h1>
-                      <h1 id="ree1">from</h1>
-                      <h1 id="ree">Moov Africa</h1> 
-                      <h6 id="wee">We operate within the axis of South-south, South-East, South West of Nigeria.</h6>
+                        <h6 id="ava">Available Jan - Dec</h6>
+                        <h1 id="ree">Rent 'A' Van</h1>
+                        <h1 id="ree1">from</h1>
+                        <h1 id="ree">Moov Africa</h1> 
+                        <h6 id="wee">We operate within the axis of South-south, South-East, South West of Nigeria.</h6>
                       <div className="conn">
                         <div className="conn1"><h6 id="con">Contact us</h6></div>
-                        <div className="conn2"><i className="fas fa-arrow-alt-circle-right"></i></div>
+                        <div className="conn2"><i class="fas fa-arrow-alt-circle-right"></i></div>
                       </div>
                     </div>
                     <div className="rent3">
@@ -53,24 +53,27 @@ const Rent=()=>{
                 </div> 
                 <Row>
                 <div className="pee">
-                <img class="bl" src="./images/truck17.jpeg"
+                <img class="bl" 
+                     src="./images/truck17.jpeg"
                      alt="moov africa image"
                 />
                 </div>
                 <div className="pee">
-                <img className="bl" src="./images/truckxx.jpg"
+                <img className="bl" 
+                     src="./images/truckxx.jpg"
                      alt="moov africa image"     
                  />
                  </div>
 
                 <div className="pee">
-                <img className="bl" src="./images/cargox3.jpg"
+                <img className="bl" 
+                     src="./images/cargox3.jpg"
                      alt="moov africa image "   
                 />
                 </div>
                 </Row>                   
             </div> 
-            <div className="eee"><i className="fas fa-angle-double-right"></i><h5 className="rel">Reliable vehecles</h5></div>
+            <div className="eee"><i class="fas fa-angle-double-right"></i><h5 className="rel">Reliable vehecles</h5></div>
             <div className="ee1">
                 <h5 id="com">Commercial Van Rental, Moving Truck or Van Rental</h5>
                 <h6 id="nee">Need to rent a van or truck and driver?</h6>
@@ -92,10 +95,10 @@ const Rent=()=>{
                     </Col>
                     <Col>
                     <h6 id="las4">Social 
-                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i className="fab fa-facebook-f"></i></a> 
-                      <a href="https://twitter.com/moovnigeria"><i className="fab fa-twitter"></i></a>
-                        <i className="fab fa-instagram"></i>
-                       <a href="https://www.linkedin.com/company/moovafrica/"><i className="fab fa-linkedin-in"></i></a>
+                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i class="fab fa-facebook-f"></i></a> 
+                      <a href="https://twitter.com/moovnigeria"><i class="fab fa-twitter"></i></a>
+                        <i class="fab fa-instagram"></i>
+                       <a href="https://www.linkedin.com/company/moovafrica/"><i class="fab fa-linkedin-in"></i></a>
                     </h6>
                     </Col>   
                 </Row>

@@ -8,9 +8,9 @@ const Cargo=()=>{
     <div>
         <div class="caa">
         <div className="bar">
-        <div class="bar1">
-        <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-        <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 class="enq" >Contact Us</h6></Link></div>
+        <div className="bar1">
+        <div className="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
+        <div className="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 className="enq" >Contact Us</h6></Link></div>
         </div>
         </div>
     <div className="car">
@@ -19,26 +19,26 @@ const Cargo=()=>{
         <Navbar.Collapse id="responsive-navbar-nav">    
                 <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
             <Nav className="mr-auto">    
-                <Link class="nav-link" to='/'>Home</Link>
-                <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
-                <Link class="nav-link" to='/rent'>Rent a Van</Link>
-                <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
-                <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
-                <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
-                <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
+                <Link className="nav-link" to='/'>Home</Link>
+                <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
+                <Link className="nav-link" to='/rent'>Rent a Van</Link>
+                <a className="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
+                <Link className="nav-link" to='/deals'>Deals</Link>
+                <Link className="nav-link" to='/hail1'>Hail a Repair</Link>
+                <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
+                <a className="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
                 <div className="vl"></div>
                 <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
             </Nav>  
         </Navbar.Collapse>
     </Navbar>
-            <img class="imgxx" 
+            <img className="imgxx" 
                  src="./images/cargo1.jpg"
                  alt="moov africa image"
             />
         </div>
-        <div class="nic">
-            <div class="nic1">
+        <div className="nic">
+            <div className="nic1">
                 <img id="truc" 
                      src="./images/truck26.jpg"
                      width="240px"
@@ -46,7 +46,7 @@ const Cargo=()=>{
                 <h4 id="mat">Same Day! Next Day! When?</h4>
                 <h2 id="tak">Taking you forward</h2>
                 <h5 id="tak2">We guarantee your important parcels and cargo get the desired Express Service</h5>
-                    <div class="bick1">
+                    <div className="bick1">
                         <img 
                         id="truc2"
                         src="./images/truck25.jpg"
@@ -57,11 +57,11 @@ const Cargo=()=>{
                         <h5 id="tak2">All around Lagos</h5>
                     </div>
             </div>
-            <div class="nic2">
-                <div class="nic3">
+            <div className="nic2">
+                <div className="nic3">
                 <i class="fas fa-truck-moving"></i>
                 </div>
-                <div class="nic4">
+                <div className="nic4">
                     <h4 id="whaa">What do you want delivered</h4>
                     <h5>Different Categories</h5>
                     <h6 id="whaa1">Small/Medium Cargo</h6>
@@ -70,10 +70,10 @@ const Cargo=()=>{
                     <h6 id="whaa1">Haulage</h6>
                     <h6 id="whaa1">Home/Office Paking removal</h6>
                 </div>    
-                <div class="nic5">
-                <div class="nic6"><i class="fas fa-luggage-cart"></i></div>
-                <div class="nic7">
-                    <h4 class="what1">Packing and Removal</h4>
+                <div className="nic5">
+                <div className="nic6"><i class="fas fa-luggage-cart"></i></div>
+                <div className="nic7">
+                    <h4 className="what1">Packing and Removal</h4>
                     <h5>What are your options</h5>
                     <h6 id="whaa1">We render various services</h6>
                     <h6 id="whaa1">Right to your door step</h6>
@@ -82,10 +82,10 @@ const Cargo=()=>{
                     <h6 id="whaa1">Very secured</h6>                
                     </div>
                 </div>
-                <div class="nicx5">
-                <div class="nicx6"><i class="fas fa-box-open"></i></div>
-                <div class="nicx7">
-                    <h4 class="what1">We carry out various services</h4>
+                <div className="nicx5">
+                <div className="nicx6"><i class="fas fa-box-open"></i></div>
+                <div className="nicx7">
+                    <h4 className="what1">We carry out various services</h4>
                     <h5> Our Solutions</h5>
                     <h6 id="whaa1">Limitless nationwide</h6> 
                     <h6 id="whaa1">Time-definite delivery</h6>
@@ -96,13 +96,13 @@ const Cargo=()=>{
                 </div>    
             </div>    
             </div> 
-                <div class="anim">
+                <div className="anim">
                     <img src="./images/img6.jpg" alt="Moov Africa Image" width="100%" height="600px"/>
                 </div> 
-                <div class="pack">
-                    <img class="pack1"  src="./images/packa1.png" alt="Moov Africa Image" width="280px" height="240px"/>
-                    <img class="pack2" src="./images/packa2.jpg" alt="Moov Africa Image" width="280px" height="190px"/>
-                    <img class="pack3" src="./images/packa3.jpg" alt="Moov Africa Image" width="300px" height="220px"/>
+                <div className="pack">
+                    <img className="pack1"  src="./images/packa1.png" alt="Moov Africa Image" width="280px" height="240px"/>
+                    <img className="pack2" src="./images/packa2.jpg" alt="Moov Africa Image" width="280px" height="190px"/>
+                    <img className="pack3" src="./images/packa3.jpg" alt="Moov Africa Image" width="300px" height="220px"/>
                 </div>
                 
                 
@@ -119,10 +119,10 @@ const Cargo=()=>{
                     </Col>
                     <Col>
                     <h6 id="las4">Social 
-                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i className="fab fa-facebook-f"></i></a> 
-                      <a href="https://twitter.com/moovnigeria"><i className="fab fa-twitter"></i></a>
-                        <i className="fab fa-instagram"></i>
-                       <a href="https://www.linkedin.com/company/moovafrica/"><i className="fab fa-linkedin-in"></i></a>
+                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i class="fab fa-facebook-f"></i></a> 
+                      <a href="https://twitter.com/moovnigeria"><i class="fab fa-twitter"></i></a>
+                        <i class="fab fa-instagram"></i>
+                       <a href="https://www.linkedin.com/company/moovafrica/"><i class="fab fa-linkedin-in"></i></a>
                     </h6>
                     </Col>   
                 </Row>
