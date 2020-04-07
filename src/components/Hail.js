@@ -7,36 +7,36 @@ const Hail=()=>{
     return(
         <div>
         <div className="bar">
-        <div class="bar1">
-        <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-        <div class="bar3"><i class="far fa-envelope"></i><h6 class="enq">enquiry&#64;moovafrica.com</h6></div>
+        <div className="bar1">
+        <div className="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
+        <div className="bar3"><i class="far fa-envelope"></i><h6 class="enq">enquiry&#64;moovafrica.com</h6></div>
         </div>
         </div>
     <div className="car">
-        <nav class="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
-            <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-        <Link class="nav-link" to='/'>Home</Link>
+        <nav className="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
+            <img className="logo" src="./images/w1.png" alt="picture" width="180px" height="80px"/>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
+        <li className="nav-item">
+        <Link className="nav-link" to='/'>Home</Link>
         </li>
-        <li class="nav-item">
-        <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
+        <li className="nav-item">
+        <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
         </li>
-        <li class="nav-item">
-        <Link class="nav-link" to='/rent'>Rent a Van</Link>
+        <li classv="nav-item">
+        <Link className="nav-link" to='/rent'>Rent a Van</Link>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
+        <li className="nav-item">
+        <a className="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
         </li>
-        <li class="nav-item">
-        <Link class="nav-link" to='/deals'>Deals</Link>
+        <li className="nav-item">
+        <Link className="nav-link" to='/deals'>Deals</Link>
         </li>         
-        <li class="nav-item">
-        <Link class="nav-link" to='/hail'>Hail a Repair</Link>
+        <li className="nav-item">
+        <Link className="nav-link" to='/hail'>Hail a Repair</Link>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
+        <li className="nav-item">
+        <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
         </li>
         <li class="nav-item">
         <Link class="nav-link" to='/track'>Track</Link>
@@ -50,7 +50,7 @@ const Hail=()=>{
     </div>
         </nav>
      
-<div class="animate seven">
+<div className="animate seven">
     <span id="spa">E</span><span>x</span><span>p</span><span>r</span><span>e</span><span>s</span><span>s</span>&nbsp;&nbsp;
     <span>D</span><span>e</span><span>l</span><span>i</span><span>v</span><span>e</span><span>r</span><span>y</span>&nbsp;&nbsp;
     <span>S</span><span>o</span><span>l</span><span>u</span><span>t</span><span>i</span><span>o</span><span>n</span>
@@ -59,7 +59,7 @@ const Hail=()=>{
     <span>y</span><span>o</span><span>u</span><span>r</span>&nbsp;&nbsp;
     <span>L</span><span>o</span><span>g</span><span>i</span><span>s</span><span>t</span><span>i</span><span>c</span>
 </div>
-<div class="animate seven">
+<div className="animate seven">
     <span id="spa3">C</span><span>h</span><span>a</span><span>l</span><span>l</span><span>e</span><span>n</span><span>g</span><span>e</span><span>s</span>
 </div>
 <div></div>
@@ -109,14 +109,14 @@ const Hail=()=>{
 </Row>  
 
 <h3 id="sco">The Scope</h3>
-    <div class="bod2">
-        <div class="bod3">     
+    <div className="bod2">
+        <div className="bod3">     
         <img id="glo" 
              src="./images/globe.jpg"
              alt="global pic"
         />
         </div>
-        <div class="bod4">
+        <div className="bod4">
         <img src="./images/truck26.jpg"
              alt="cargo image"
              width="200px"
@@ -126,7 +126,7 @@ const Hail=()=>{
         </div>
     </div>
 
-<div class="textx"><h6>We would always beat your imagination, and even more. 
+<div className="textx"><h6>We would always beat your imagination, and even more. 
                 Our staff are always very courteous and would always attend to your 
                 needs in due time.We would always beat your imagination, and even more.We would always beat your imagination, and even more. 
                 Our staff are always very courteous and would always attend to your 
@@ -150,10 +150,10 @@ const Hail=()=>{
             </Col>
             <Col>
             <h6 id="las4">Social 
-              <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i className="fab fa-facebook-f"></i></a> 
+              <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i class="fab fa-facebook-f"></i></a> 
               <a href="https://twitter.com/moovnigeria"><i className="fab fa-twitter"></i></a>
-                <i className="fab fa-instagram"></i>
-               <a href="https://www.linkedin.com/company/moovafrica/"><i className="fab fa-linkedin-in"></i></a>
+                <i class="fab fa-instagram"></i>
+               <a href="https://www.linkedin.com/company/moovafrica/"><i class="fab fa-linkedin-in"></i></a>
             </h6>
             </Col>   
         </Row>
