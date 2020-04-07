@@ -137,7 +137,7 @@ const Hail=()=>{
                 needs in due time.We would always beat your imagination, and even more.
         </h6></div> 
         <button type="button" className="butx1"><h6 id="rentx">Cargo Delivery</h6></button> 
-<div className="foot" style={{backgroundColor:'black', height:'400px', width:'100%'}} variant='dark'>
+<div className="foot" fluid={true} style={{backgroundColor:'black', height:'400px',}} variant='dark'>
         <Row>
             <Col>
             <h6 id="las1">About</h6>

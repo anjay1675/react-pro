@@ -7,7 +7,6 @@ import Hail from './components/Hail'
 import Ecom from './components/Ecom'
 import Hail1 from './components/Hail1'
 import Comp1 from './components/Comp1'
-import Contact from './components/Contact'
 import {Switch,Route} from 'react-router-dom'
 
 class App extends Component {
@@ -23,7 +22,6 @@ class App extends Component {
           <Route path='/rent' component={Rent}/>
           <Route path='/deals' component={Deals}/>
           <Route path='/hail1' component={Hail1}/>
-          <Route path='/comp1' component={Comp1}/>
         </Switch>
       </div>
     )

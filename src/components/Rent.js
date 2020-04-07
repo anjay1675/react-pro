@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 const Rent=()=>{
     return(
-        <div className="xx">
+        <div>
             <div className="bar">
             <div className="bar1">
                 <div className="bar2"><i class="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
@@ -53,7 +53,7 @@ const Rent=()=>{
                 </div> 
                 <Row>
                 <div className="pee">
-                <img class="bl" 
+                <img className="bl" 
                      src="./images/truck17.jpeg"
                      alt="moov africa image"
                 />
