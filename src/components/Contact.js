@@ -43,7 +43,7 @@ class Contact extends React.Component{
             <div className="bar">
                 <div class="bar1">
                 <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 class="enq" >Contact Us</h6></Link></div>
+                <div class="bar3"><i class="far fa-envelope"></i><Link to='/'><h6 class="enq" >Contact Us</h6></Link></div>
             </div>
         </div>
         <div className="car">
@@ -137,7 +137,7 @@ class Contact extends React.Component{
   }
 } */}
 
-      <div className="foot" fluid={true} style={{backgroundColor:'black', height:'400px',}} variant='dark'>
+      <div className="foot" style={{backgroundColor:'black', height:'400px', width:'100%'}} variant='dark'>
                 <Row>
                     <Col>
                     <h6 id="las1">About</h6>

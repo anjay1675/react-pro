@@ -7,9 +7,9 @@ const Rent=()=>{
     return(
         <div>
             <div className="bar">
-            <div class="bar1">
-                <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 class="enq" >Contact Us</h6></Link></div>
+            <div className="bar1">
+                <div className="bar2"><i className="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
+                <div class="bar3"><i class="far fa-envelope"></i><Link to='/'><h6 className="enq" >Contact Us</h6></Link></div>
                 </div>
             </div>
             <div className="car" >
@@ -18,32 +18,32 @@ const Rent=()=>{
         <Navbar.Collapse id="responsive-navbar-nav">    
                 <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
             <Nav className="mr-auto">    
-                <Link class="nav-link" to='/'>Home</Link>
-                <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
-                <Link class="nav-link" to='/rent'>Rent a Van</Link>
-                <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
-                <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
-                <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
-                <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
+                <Link className="nav-link" to='/'>Home</Link>
+                <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
+                <Link className="nav-link" to='/rent'>Rent a Van</Link>
+                <a className="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
+                <Link className="nav-link" to='/deals'>Deals</Link>
+                <Link className="nav-link" to='/hail1'>Hail a Repair</Link>
+                <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
+                <a className="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
                 <div className="vl"></div>
-                <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
+                <Link id="ser" to='/search'><i className="fas fa-search"></i></Link>
             </Nav>  
         </Navbar.Collapse>
         </Navbar>
-                <div class="rent1">
-                    <div class="rent2">
+                <div className="rent1">
+                    <div className="rent2">
                       <h6 id="ava">Available Jan - Dec</h6>
                       <h1 id="ree">Rent 'A' Van</h1>
                       <h1 id="ree1">from</h1>
                       <h1 id="ree">Moov Africa</h1> 
                       <h6 id="wee">We operate within the axis of South-south, South-East, South West of Nigeria.</h6>
-                      <div class="conn">
-                        <div class="conn1"><h6 id="con">Contact us</h6></div>
-                        <div class="conn2"><i class="fas fa-arrow-alt-circle-right"></i></div>
+                      <div className="conn">
+                        <div className="conn1"><h6 id="con">Contact us</h6></div>
+                        <div className="conn2"><i className="fas fa-arrow-alt-circle-right"></i></div>
                       </div>
                     </div>
-                    <div class="rent3">
+                    <div className="rent3">
                         <img src="./images/trans3.jpg"
                              alt="truck image"
                              width="500px"
@@ -52,26 +52,26 @@ const Rent=()=>{
                     </div>
                 </div> 
                 <Row>
-                <div class="pee">
+                <div className="pee">
                 <img class="bl" src="./images/truck17.jpeg"
                      alt="moov africa image"
                 />
                 </div>
-                <div class="pee">
-                <img class="bl" src="./images/truckxx.jpg"
+                <div className="pee">
+                <img className="bl" src="./images/truckxx.jpg"
                      alt="moov africa image"     
                  />
                  </div>
 
-                <div class="pee">
-                <img class="bl" src="./images/cargox3.jpg"
+                <div className="pee">
+                <img className="bl" src="./images/cargox3.jpg"
                      alt="moov africa image "   
                 />
                 </div>
                 </Row>                   
             </div> 
-            <div class="eee"><i class="fas fa-angle-double-right"></i><h5 class="rel">Reliable vehecles</h5></div>
-            <div class="ee1">
+            <div className="eee"><i className="fas fa-angle-double-right"></i><h5 className="rel">Reliable vehecles</h5></div>
+            <div className="ee1">
                 <h5 id="com">Commercial Van Rental, Moving Truck or Van Rental</h5>
                 <h6 id="nee">Need to rent a van or truck and driver?</h6>
                 <h6 id="mo1">Moov Africa Rent A Truck Rental has good options for your truck rental needs in Lagos for use
@@ -79,7 +79,7 @@ const Rent=()=>{
                       Rental is stocked with Box Trucks, Moving Vans, Trucks, Cargo Vans and more.</h6>
 
             </div>
-            <div className="foot" fluid={true} style={{backgroundColor:'black', height:'400px',}} variant='dark'>
+            <div className="foot" style={{backgroundColor:'black', height:'400px', width:'100%'}} variant='dark'>
                 <Row>
                     <Col>
                     <h6 id="las1">About</h6>

@@ -7,7 +7,7 @@ import Hail from './components/Hail'
 import Ecom from './components/Ecom'
 import Hail1 from './components/Hail1'
 import Comp1 from './components/Comp1'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import {Switch,Route} from 'react-router-dom'
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Menu}/>
           <Route path='/ecom' component={Ecom}/>
-          <Route path='/cont' component={Comp1}/>
+          {/* <Route path='/cont' component={Comp1}/> */}
           <Route path='/cargo' component={Cargo}/>
           <Route path='/hail' component={Hail}/>
           <Route path='/rent' component={Rent}/>
