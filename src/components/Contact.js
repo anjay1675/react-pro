@@ -39,44 +39,44 @@ class Contact extends React.Component{
     
     render() {
       return(
-        <div class="bodyy">
+        <div className="bodyy">
             <div className="bar">
-                <div class="bar1">
-                <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 class="enq" >Contact Us</h6></Link></div>
+                <div className="bar1">
+                <div className="bar2"><i class="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
+                <div className="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 className="enq" >Contact Us</h6></Link></div>
             </div>
         </div>
         <div className="car">
     <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">    
-                <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
+                <img className="logo" src="./images/w1.png" width="180px" alt="picture"height="80px"/>
             <Nav className="mr-auto">    
-                <Link class="nav-link" to='/'>Home</Link>
-                <Link class="nav-link" to='/cargo'>Cargo Delivery</Link>
-                <Link class="nav-link" to='/rent'>Rent a Van</Link>
-                <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
-                <Link class="nav-link" to='/deals'>Deals</Link>
-                <Link class="nav-link" to='/hail1'>Hail a Repair</Link>
-                <a class="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
-                <a class="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
+                <Link className="nav-link" to='/'>Home</Link>
+                <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
+                <Link className="nav-link" to='/rent'>Rent a Van</Link>
+                <a className="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
+                <Link className="nav-link" to='/deals'>Deals</Link>
+                <Link className="nav-link" to='/hail1'>Hail a Repair</Link>
+                <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
+                <a className="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
                 <div className="vl"></div>
                 <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
             </Nav>  
         </Navbar.Collapse>
     </Navbar>
       </div>
-      <div class="call">
-          <div class="call1">
+      <div className="call">
+          <div className="call1">
           <h5 id="any">HAVE A QUESTION ?</h5>
           <h1 id="uss">CONTACT US NOW</h1>
           </div>         
     </div>
-    <div class="form1"> 
-        <div class="formx">
-        <div class="htp"><h5 id="send">Send a message</h5>
+    <div className="form1"> 
+        <div className="formx">
+        <div className="htp"><h5 id="send">Send a message</h5>
           <h6 id="gig">Fill the form below with the inquiries you may have and we would get back to you as sonn as possible</h6></div>
-          <div class="form">  
+          <div className="form">  
           <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
     <div className="form-group">
         <label htmlFor="name">Name</label>
@@ -94,8 +94,8 @@ class Contact extends React.Component{
         </form>
           </div>
           </div>
-          <div class="form2">
-              <div class="form3">
+          <div className="form2">
+              <div className="form3">
                   <h5 id="send1">Address</h5>
                   <h6 id="gig">48 Oyedele Ogunniyi Street</h6>
                   <h6 id="gig">Anthony village, Lagos</h6>
@@ -103,13 +103,13 @@ class Contact extends React.Component{
                   <h5 id="send2">Email</h5>
                   <h6 id="gig">connect@moov.com.ng</h6>
               </div>
-              <div class="form4">
+              <div className="form4">
                   <h5 id="send1">Phone</h5>
                   <h6 id="gig">+234 (0) 894820401</h6>
                   <h6 id="gig">+234 (0) 894820402</h6>
                   <div>
                       <h5 id="send2">Connect</h5>
-                      <div class="thin">
+                      <div className="thin">
                       <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i id="net" className="fab fa-facebook-f"></i></a>
                       <a href="https://twitter.com/moovnigeria"><i id="net" className="fab fa-twitter"></i></a> 
                       <i id="net" className="fab fa-instagram"></i>
@@ -150,10 +150,10 @@ class Contact extends React.Component{
                     </Col>
                     <Col>
                     <h6 id="las4">Social 
-                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i  className="fab fa-facebook-f"></i></a> 
+                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i  class="fab fa-facebook-f"></i></a> 
                       <a href="https://twitter.com/moovnigeria"><i  className="fab fa-twitter"></i></a>
-                        <i className="fab fa-instagram"></i>
-                       <a href="https://www.linkedin.com/company/moovafrica/"><i className="fab fa-linkedin-in"></i></a>
+                        <i class="fab fa-instagram"></i>
+                       <a href="https://www.linkedin.com/company/moovafrica/"><i class="fab fa-linkedin-in"></i></a>
                     </h6>
                     </Col>   
                 </Row>
