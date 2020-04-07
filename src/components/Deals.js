@@ -11,7 +11,7 @@ const Deals =()=>{
             <div className="bar">
             <div class="bar1">
                 <div class="bar2"><i class="fas fa-phone-alt"></i><h6 class="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/'><h6 class="enq" >Contact Us</h6></Link></div>
+                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 class="enq" >Contact Us</h6></Link></div>
                 </div>
             </div>
         <div className="car1">

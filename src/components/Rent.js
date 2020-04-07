@@ -9,7 +9,7 @@ const Rent=()=>{
             <div className="bar">
             <div className="bar1">
                 <div className="bar2"><i className="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
-                <div class="bar3"><i class="far fa-envelope"></i><Link to='/'><h6 className="enq" >Contact Us</h6></Link></div>
+                <div class="bar3"><i class="far fa-envelope"></i><Link to='/cont'><h6 className="enq" >Contact Us</h6></Link></div>
                 </div>
             </div>
             <div className="car" >
