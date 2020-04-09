@@ -15,14 +15,15 @@ class Comp1 extends React.Component{
    }
   
 
-  handleSubmit(e){
+  async handleSubmit(e){
     e.preventDefault();
-    axios({
+    await axios({
       method: "POST", 
-      url:"http://localhost:3000/send", 
+      url:"http://localhost:5000/send", 
       data:  this.state
     }).then((response)=>{
-      if (response.data.status === 'success'){
+      console.log(response)
+      if (response.status === 200){
         alert("Message Sent."); 
         this.resetForm()
       }else if(response.data.status === 'fail'){
@@ -102,9 +103,9 @@ class Comp1 extends React.Component{
   onMessageChange(event) {
 	this.setState({message: event.target.value})
   }
-  handleSubmit(event) {
-      this.setState({status: event.data})
- }
+//   handleSubmit(event) {
+//       this.setState({status: event.data})
+//  }
 }
 
 
