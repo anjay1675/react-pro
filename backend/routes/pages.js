@@ -8,15 +8,17 @@ Router.route("/").post((req, res)=>{
     const email = req.body.email;
     const name = req.body.name;
     // const message = req.body.message;
-
+    // in order to use gmail as a transporter smtp make sure you switch on less secure apps authentication for the account: link bellow
+        // https://myaccount.google.com/lesssecureapps
     let transport = nodemailer.createTransport({
         host: 'smtp.gmail.com',
         port: 587,
         secure: false,
         requireTLS: true,
         auth: {
-            user: '', // like : abc@gmail.com
-            pass: ''           // like : pass@123
+    
+            // user:  // like : abc@gmail.com,
+            // pass: // like : pass@123
         }
         });
     const mailInfo = {
