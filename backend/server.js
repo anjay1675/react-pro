@@ -7,8 +7,8 @@ app.use(cors());
 app.use(express.json())
 
 //middleware to route activities 
-const pageRouter = require("./routes/pages");
-app.use("/send", pageRouter);
+const contactRouter = require("./routes/contact");
+app.use("/send", contactRouter);
 
 const port = process.env.PORT || 5000;
 
